@@ -60,12 +60,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">SupraX</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>69</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 65k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookml1.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -78,12 +77,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">RevoX</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>69</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 60k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookml2.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -96,12 +94,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">Vega</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>69</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 60k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookml3.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -114,12 +111,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">Jupiter</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>69</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 60k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookml4.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>

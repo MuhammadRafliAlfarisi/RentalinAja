@@ -60,12 +60,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">Vario</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>79</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 100k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookmc1.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -78,12 +77,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">NMax</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>79</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 150k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookmc2.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -96,12 +94,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">Scoopy</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>79</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 80k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookmc3.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -114,12 +111,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">Beat</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>79</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 80k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookmc4.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>

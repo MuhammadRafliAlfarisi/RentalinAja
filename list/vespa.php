@@ -60,12 +60,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">S</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>90</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 150k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookv1.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -78,12 +77,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">Sprint</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>90</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 150k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookv2.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -96,12 +94,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">Lx</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>90</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 140k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookv3.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>
@@ -114,12 +111,11 @@
                                     <div class="h-100">
                                         <h2 class="card-title">Primavera</h2>
                                         <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa magni provident dolorem sunt impedit, exercitationem maiores dolor eos vitae.
                                         </p>
-                                        <h4 class="card-title mb-3">$<strong>90</strong></h4>
+                                        <h4 class="card-title mb-3">Rp.<strong> 170k</strong> / 24hrs</h4>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-dark">Purchase Tickets</button>
+                                        <button type="button" class="btn btn-dark"><a href="bookv4.php">BOOK</a></button>
                                     </div>
                                 </div>
                             </div>
