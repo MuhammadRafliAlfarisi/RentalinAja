@@ -1,8 +1,15 @@
-body{
-    margin-left: 10%;
-    margin-right: 10%;
+.dashboard {
+    height: 80vh;
+    background-image: url("../img/landingpage.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
 }
 
-.jenis{
-    text-align: center;
+.p {
+    color: white;
+    font-size: large;
+    margin: 15% 10%;
+
 }
+
