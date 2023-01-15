@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <h2 style="font-family: montserrat">Booking Form</h2>
         <div id="name">
             <label for="FName">Full Name</label><br>
-            <input type="text" name="nama_peminjam" placeholder="your name" value="<?= $_SESSION['name'];?>" disabled required>
+            <input type="text" name="nama_peminjam" placeholder="your name" required>
         </div><br>
         <div>
             <label for="">Phone Number</label><br>
@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div><br>
         <div>
             <label for="">Email</label><br>
-            <input type="email" placeholder="test@gmail.com" required value="<?= $_SESSION['email'];?>" disabled name="email">
+            <input type="email" placeholder="test@gmail.com" required name="email">
         </div><br>
         <div>
             <label for="">Pilih Motor</label><br>

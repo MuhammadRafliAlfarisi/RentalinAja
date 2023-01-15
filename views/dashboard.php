@@ -99,20 +99,20 @@
         </div>
 
         <div class="modal fade" id="logout" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog text-dark">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Log Out</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-dialog text-dark">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Log Out</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">Apakah anda yakin ingin Log Out?</div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                        <a href="../model/logout.php" class="btn btn-primary">Konfirmasi</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">Apakah anda yakin ingin Log Out?</div>
-        <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-                <a href="../model/logout.php" class="btn btn-primary">Konfirmasi</a>
-        </div>
-      </div>
-    </div>
-  </div>
 
 </body>
 

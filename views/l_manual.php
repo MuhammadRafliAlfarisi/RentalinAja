@@ -1,3 +1,16 @@
+<?php
+require '../lib/library.php';
+
+
+
+$sql = "SELECT * FROM motor WHERE jenis = 'Manual'";
+
+$getData = $mysqli->query($sql) or die($mysqli->error);
+$data = mysqli_fetch_all($getData, MYSQLI_ASSOC);
+// var_dump($data);die();
+
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -6,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/data.css">
-    <title>Hello, world!</title>
+    <title>RentalinAja</title>
 </head>
 
 <body>
@@ -43,73 +56,25 @@
   </li>
 </ul>
 
-    <div class="cream-bg">
+<div class="cream-bg">
         <div class="container">
             <div class="row g-5 justify-content-evenly">
                 <div class="col-lg-6">
                     <div class="card">
                         <div class="row g-0">
-                            <!--  -->
-                            <div class="col-6 col-md-5">
-                                <img src="../img/manual1.png" class="card-img img-fluid rounded-start" alt="">
-                            </div>
-                            <div class="col-6 col-md-7">
-                                <div class="card-body d-flex flex-column">
-                                    <div class="h-100">
-                                        <h2 class="card-title">SupraX</h2>
-                                        <h4 class="card-title mb-3">Rp<strong>50.000</strong></h4>
-                                    </div>
-                                    <div>
-                                        <a href="./form.php" class="btn btn-dark">Purchase Tickets</a>
+                            <?php foreach ($data as $motor) { ?>
+                                <div class="col-6 col-md-7">
+                                    <div class="card-body d-flex flex-column">
+                                        <div class="h-100">
+                                            <h2 class="card-title"><?= $motor['nama_motor']; ?></h2>
+                                            <h4 class="card-title mb-3">Rp<strong><?= number_format((int)$motor['harga'], 0, ',', '.'); ?></strong></h4>
+                                        </div>
+                                        <div>
+                                            <a href="./form.php" class="btn btn-dark">Purchase Tickets</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!--  -->
-                            <div class="col-6 col-md-5">
-                                <img src="../img/manual2.png" class="card-img img-fluid rounded-start" alt="">
-                            </div>
-                            <div class="col-6 col-md-7">
-                                <div class="card-body d-flex flex-column">
-                                    <div class="h-100">
-                                        <h2 class="card-title">RevoX</h2>
-                                        <h4 class="card-title mb-3">Rp<strong>50.000</strong></h4>
-                                    </div>
-                                    <div>
-                                        <a href="./form.php" class="btn btn-dark">Purchase Tickets</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--  -->
-                            <div class="col-6 col-md-5">
-                                <img src="../img/manual3.png" class="card-img img-fluid rounded-start" alt="">
-                            </div>
-                            <div class="col-6 col-md-7">
-                                <div class="card-body d-flex flex-column">
-                                    <div class="h-100">
-                                        <h2 class="card-title">Vega</h2>
-                                        <h4 class="card-title mb-3">Rp<strong>50.000</strong></h4>
-                                    </div>
-                                    <div>
-                                        <a href="./form.php" class="btn btn-dark">Purchase Tickets</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--  -->
-                            <div class="col-6 col-md-5">
-                                <img src="../img/manual4.png" class="card-img img-fluid rounded-start" alt="">
-                            </div>
-                            <div class="col-6 col-md-7">
-                                <div class="card-body d-flex flex-column">
-                                    <div class="h-100">
-                                        <h2 class="card-title">Jupiter</h2>
-                                        <h4 class="card-title mb-3">Rp<strong>50.000</strong></h4>
-                                    </div>
-                                    <div>
-                                        <a href="./form.php" class="btn btn-dark">Purchase Tickets</a>
-                                    </div>
-                                </div>
-                            </div>
-                           
+                            <?php } ?>
                         </div>
                     </div>
                 </div>

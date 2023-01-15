@@ -98,8 +98,8 @@
                 <div class="text-center">
                     <h2 class="">Rental Sekarang</h2>
                     <div class="">
-                        <a class="nav-link" href="#"> <button type="button" data-bs-toggle="modal" data-bs-target="#register" class="btn btn-outline-primary mt-5" style="width: 18rem; height: 50px;">Register</button></a>
-                        <a class="nav-link" href="#"> <button type="button" data-bs-toggle="modal" data-bs-target="#login" class="btn btn-primary" style="height: 50px; width: 18rem;">Login</button></a>
+                        <a class="nav-link" href="./Register.php"> <button type="button" data-bs-toggle="modal" data-bs-target="#register" class="btn btn-outline-primary mt-5" style="width: 18rem; height: 50px;">Register</button></a>
+                        <a class="nav-link" href="./Login.php"> <button type="button" data-bs-toggle="modal" data-bs-target="#login" class="btn btn-primary" style="height: 50px; width: 18rem;">Login</button></a>
                     </div>
                 </div>
             </div>

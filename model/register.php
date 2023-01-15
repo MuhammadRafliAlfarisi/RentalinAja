@@ -9,7 +9,7 @@
 
         if ($password == $konfirm_password) {
             if (cek_email($mysqli, $email) == 0) {
-                $sql = " INSERT INTO users (email, name, password) values ('$email', '$name', SHA1('$password'))";
+                $sql = " INSERT INTO users (email, name, password, level) values ('$email', '$name', SHA1('$password'), 'user')";
 
                 $data = $mysqli -> query($sql) or die($mysqli->error);
                 if ($data) {
